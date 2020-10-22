@@ -1,0 +1,31 @@
+* {
+    font-family: 'circe';
+}
+
+table {
+    margin: 200px auto;
+    border-spacing: 1px;
+}
+
+th {  
+    font-size: 18px;  
+    color: #fff;
+    background: #f47d32;
+    width: 150px;
+    height: 35px;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    font-size: 16px;
+   background: gray;   
+   color: #fff; 
+   padding: 4px;
+}
+
+td:nth-child(2), td:nth-child(3), td:nth-child(5) {
+    text-align: center;
+}
